@@ -2,21 +2,18 @@
 
 Partendo dal servizio https://jsonplaceholder.typicode.com/ [My JSON Server](https://my-json-server.typicode.com/).
 
-[users](http://my-json-server.typicode.com/checksound/my-blog/users)
-
-[user 1](http://my-json-server.typicode.com/checksound/my-blog/users/1)
-
-[posts](http://my-json-server.typicode.com/checksound/my-blog/posts)
-
-[comments](http://my-json-server.typicode.com/checksound/my-blog/comments)
-
-[commenti del post 1](http://my-json-server.typicode.com/checksound/my-blog/posts/1/comments)
-
-[db](http://my-json-server.typicode.com/checksound/my-blog/db)
+* [users](http://my-json-server.typicode.com/checksound/my-blog/users)
+* [posts](http://my-json-server.typicode.com/checksound/my-blog/posts)
+* [comments](http://my-json-server.typicode.com/checksound/my-blog/comments)
+* [db](http://my-json-server.typicode.com/checksound/my-blog/db)
 
 You can use GET, POST, PUT, PATCH and DELETE. Changes aren't persisted between calls.
 
 ## ESEMPIO
+
+[user 1](http://my-json-server.typicode.com/checksound/my-blog/users/1)
+
+[commenti del post 1](http://my-json-server.typicode.com/checksound/my-blog/posts/1/comments)
 
 `GET` my-json-server.typicode.com/checksound/my-blog/posts/1
 
