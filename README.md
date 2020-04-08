@@ -22,12 +22,17 @@ Sorgente: https://github.com/checksound/my-blog/blob/master/db.json
 
 ### ELENCO POSTS
 ```bash
-curl -i -H "Accept:application/json" -H "Content-Type:application/json" -XGET "my-json-server.typicode.com/checksound/my-blog/posts"
+curl -i -H "Accept:application/json" 
+        -H "Content-Type:application/json" 
+        -XGET "my-json-server.typicode.com/checksound/my-blog/posts"
 ```
 
-### AGGIUNTA DI UN POST
+### AGGIUNTA DI UN NUOVO POST
 ```bash
-curl -i -H "Accept:application/json" -H "Content-Type:application/json" -XPOST "my-json-server.typicode.com/checksound/my-blog/posts" -d '{"title":"Tom e Jerry"}'
+curl -i -H "Accept:application/json" 
+    -H "Content-Type:application/json" 
+    -XPOST "my-json-server.typicode.com/checksound/my-blog/posts" 
+    -d '{"title":"Tom e Jerry"}'
 ```
 
 
