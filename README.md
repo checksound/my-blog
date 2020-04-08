@@ -8,7 +8,7 @@ Partendo dal servizio https://jsonplaceholder.typicode.com/ [My JSON Server](htt
 
 [posts](http://my-json-server.typicode.com/checksound/my-blog/posts)
 
-[comments]http://(my-json-server.typicode.com/checksound/my-blog/comments)
+[comments](http://(my-json-server.typicode.com/checksound/my-blog/comments)
 
 [commenti del post 1](http://my-json-server.typicode.com/checksound/my-blog/posts/1/comments)
 
