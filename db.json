@@ -28,6 +28,18 @@
         "userId": 2
       }
     ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "Me piase",
+            "postId": 1
+        },
+        {
+            "id": 2,
+            "body": "No me piase",
+            "postId": 1
+        }
+    ],
     "profile": {
       "name": "typicode"
     }
