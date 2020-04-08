@@ -6,13 +6,13 @@ Partendo dal servizio https://jsonplaceholder.typicode.com/ [My JSON Server](htt
 
 [user 1](http://my-json-server.typicode.com/checksound/my-blog/users/1)
 
-[posts](my-json-server.typicode.com/checksound/my-blog/posts)
+[posts](http://my-json-server.typicode.com/checksound/my-blog/posts)
 
-[comments](my-json-server.typicode.com/checksound/my-blog/comments)
+[comments]http://(my-json-server.typicode.com/checksound/my-blog/comments)
 
-[commenti del post 1](my-json-server.typicode.com/checksound/my-blog/posts/1/comments)
+[commenti del post 1](http://my-json-server.typicode.com/checksound/my-blog/posts/1/comments)
 
-[db](my-json-server.typicode.com/checksound/my-blog/db)
+[db](http://my-json-server.typicode.com/checksound/my-blog/db)
 
 You can use GET, POST, PUT, PATCH and DELETE. Changes aren't persisted between calls.
 
