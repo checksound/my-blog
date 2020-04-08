@@ -32,7 +32,15 @@ curl -i -H "Accept:application/json"
 curl -i -H "Accept:application/json" 
     -H "Content-Type:application/json" 
     -XPOST "my-json-server.typicode.com/checksound/my-blog/posts" 
-    -d '{"title":"Tom e Jerry"}'
+    -d '{"title":"Tom e Jerry", "userId": 1}'
+```
+
+### MODIFICA DEL POST 1
+```bash
+curl -i -H "Accept:application/json" 
+    -H "Content-Type:application/json" 
+    -XPATCH "my-json-server.typicode.com/checksound/my-blog/posts/1" 
+    -d '{"title":"Sleep"}'
 ```
 
 ### AGGIUNTA DI UN COMMENTO AL POST 1
