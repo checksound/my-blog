@@ -21,13 +21,19 @@ Sorgente: https://github.com/checksound/my-blog/blob/master/db.json
 [commenti del post 1](http://my-json-server.typicode.com/checksound/my-blog/posts/1/comments)
 
 ### ELENCO POSTS
+
+Richiesta:
 ```bash
 curl -i -H "Accept:application/json" 
         -H "Content-Type:application/json" 
         -XGET "my-json-server.typicode.com/checksound/my-blog/posts"
 ```
 
+Risposta:
+
 ### AGGIUNTA DI UN NUOVO POST
+
+Richiesta:
 ```bash
 curl -i -H "Accept:application/json" 
     -H "Content-Type:application/json" 
@@ -35,7 +41,11 @@ curl -i -H "Accept:application/json"
     -d '{"title":"Tom e Jerry", "userId": 1}'
 ```
 
+Risposta:
+
 ### MODIFICA DEL POST 1
+
+Richiesta:
 ```bash
 curl -i -H "Accept:application/json" 
     -H "Content-Type:application/json" 
@@ -43,7 +53,11 @@ curl -i -H "Accept:application/json"
     -d '{"title":"Sleep"}'
 ```
 
+Risposta:
+
 ### AGGIUNTA DI UN COMMENTO AL POST 1
+
+Richiesta:
 ```bash
 curl -i -H "Accept:application/json" 
     -H "Content-Type:application/json" 
@@ -51,10 +65,15 @@ curl -i -H "Accept:application/json"
     -d '{"body":"Terribile!!!"}'
 ```
 
+Risposta:
+
 ### CANCELLAZIONE DEL POST 1
+
+Richiesta:
 ```bash
  curl -i -H "Accept:application/json" 
         -H "Content-Type:application/json" 
         -XDELETE "my-json-server.typicode.com/checksound/my-blog/posts/1"
  ```
 
+Risposta:
