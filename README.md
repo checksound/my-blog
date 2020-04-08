@@ -35,6 +35,18 @@ curl -i -H "Accept:application/json"
     -d '{"title":"Tom e Jerry"}'
 ```
 
+### AGGIUNTA DI UN COMMENTO AL POST 1
+```bash
+curl -i -H "Accept:application/json" 
+    -H "Content-Type:application/json" 
+    -XPOST "my-json-server.typicode.com/checksound/my-blog/posts/1/comments" 
+    -d '{"body":"Terribile!!!"}'
+```
 
-
+### CANCELLAZIONE DEL POST 1
+```bash
+ curl -i -H "Accept:application/json" 
+        -H "Content-Type:application/json" 
+        -XDELETE "my-json-server.typicode.com/checksound/my-blog/posts/1"
+ ```
 
