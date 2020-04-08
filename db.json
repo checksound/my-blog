@@ -1,8 +1,31 @@
 {
+    "users": [
+        {
+            "id": 1,
+            "name": "Massimo",
+            "email": "massimo@email.it"
+        },
+        {
+            "id": 2,
+            "name": "Luca",
+            "email": "luca@email.it"
+        }
+    ],
     "posts": [
       {
         "id": 1,
-        "title": "hello"
+        "title": "hello",
+        "userId": 1
+      },
+      {
+        "id": 2,
+        "title": "La bella lava il fosso",
+        "userId": 1
+      },
+      {
+        "id": 1,
+        "title": "hello from Samarate",
+        "userId": 2
       }
     ],
     "profile": {
